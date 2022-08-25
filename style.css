@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Epilogue:wght@300;500;700;900&family=Happy+Monkey&family=Michroma&family=Nanum+Pen+Script&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+
+.main{
+    width: 50vw;
+    margin: auto;
+}
+
+header{
+    height: 100vh;
+}
+
+
+nav{
+    padding: 1.5rem;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-navbar{
+    display: flex;
+}
+
+.nav__logo{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.primary-navbar .navlists{
+    list-style: none;
+    margin-left: 2.5rem;
+    text-decoration: none;
+}
+
+.navlist{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.main__header{
+    text-align: left;
+    padding-top: 8rem ;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+}
+
+.main__position{
+    width: 500px;
+    border: 2px dashed black;
+    text-align: center;
+    margin: 1rem 0;
+    background-color: aqua;
+}
+
+
+.scroll-down img{
+    width: 1.3rem;
+    display: block;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.sr-only{
+    visibility: hidden;
+}
+
+
+@media (max-width:350px){
+    .main{
+        width: 100vw;
+    }
+
+    nav{
+        padding: 1rem;
+        position: fixed;
+    }
+
+    .primary-navbar{
+        flex-direction: column;
+        width: 65%;
+        height: min-content;
+        position: fixed;
+        inset: 8% 4% 5% 30% ;
+        background: rgb(253, 255, 195);
+        border-radius: 10px;
+        padding: 1.5rem 0;
+        border: 3px solid white;
+        transform: translateX(120%);
+        transition: transform 350ms ease-in-out;
+    }
+    
+    .primary-navbar[data-visible='true']{
+        transform: translateX(0%);   
+    }
+
+    .primary-navbar .navlists{
+        padding: 1rem;
+    }
+
+    .navlist{
+        text-align: center;
+
+    }
+
+
+    /* Navbar Toggle */
+    .nav-toggle{
+        display: block;
+        position: fixed;
+        width: 1.5rem;
+        aspect-ratio: 1;
+        background: url('SVGs/hamburger.svg');
+        top: 1rem ;
+        right: 1rem;
+        z-index: 9999;
+        border: none;
+    }
+
+    .nav-toggle[aria-expanded='true']{
+        background: url('SVGs/cross.svg');
+        width: 1.2rem;
+        top: 1.2rem ;
+    }
+
+    
+
+}
