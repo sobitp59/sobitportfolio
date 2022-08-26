@@ -149,6 +149,21 @@ nav{
         top: 2.5rem ;
     }
 
+
+    .main__header{
+        padding-top: 12rem ;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .main__position{
+        width: 380px;
+        border: 2px dashed black;
+        text-align: center;
+        margin: 1rem 0;
+        background-color: aqua;
+    }
     
 
 }
