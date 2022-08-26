@@ -129,7 +129,7 @@ nav{
     .nav-toggle{
         display: block;
         position: fixed;
-        width: 1.5rem;
+        width: 2rem;
         aspect-ratio: 1;
         background: url('SVGs/hamburger.svg');
         top: 1rem ;
