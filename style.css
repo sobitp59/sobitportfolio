@@ -116,6 +116,14 @@ nav{
 
     }
 
+    /* Navbar Fonts */
+    .nav__logo{
+        font-size: 1.8rem;
+    }
+
+    .navlist{
+        font-size: 1.4rem;
+    }
 
     /* Navbar Toggle */
     .nav-toggle{
