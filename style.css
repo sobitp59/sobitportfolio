@@ -129,7 +129,7 @@ nav{
     .nav-toggle{
         display: block;
         position: fixed;
-        width: 2rem;
+        width: 2.2rem;
         aspect-ratio: 1;
         background: url('SVGs/hamburger.svg');
         top: 1rem ;
@@ -140,7 +140,7 @@ nav{
 
     .nav-toggle[aria-expanded='true']{
         background: url('SVGs/cross.svg');
-        width: 1.2rem;
+        width: 2.2rem;
         top: 1.2rem ;
     }
 
