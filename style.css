@@ -101,13 +101,12 @@ nav{
         height: min-content;
         position: fixed;
         inset: 80% 4% 5% 45% ;
-        background: rgb(253, 255, 195);
+        background: rgb(230, 195, 255);
         border-radius: 10px;
         padding: 1.5rem 0.5rem;
         border: 3px solid white;
         transform: translateX(1000%);
         transition: transform 350ms ease-in-out;
-        color: rgb(0, 10, 70);
         font-size: 1.2rem;
         /* font-weight: 600; */
         /* text-align: center; */
@@ -123,7 +122,7 @@ nav{
 
     .navlist{
         text-align: center;
-
+        color: rgb(0, 10, 70);
     }
 
     /* Navbar Fonts */
