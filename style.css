@@ -101,7 +101,7 @@ nav{
         height: min-content;
         position: fixed;
         inset: 80% 4% 5% 45% ;
-        background: rgb(230, 195, 255);
+        background: rgba(230, 195, 255, 0.498);
         border-radius: 10px;
         padding: 1.5rem 0.5rem;
         border: 3px solid white;
