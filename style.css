@@ -95,17 +95,17 @@ nav{
 
     .primary-navbar{
         flex-direction: column;
-        width: 50%;
+        width: 35%;
         height: min-content;
         position: fixed;
-        inset: 80% 4% 5% 40% ;
+        inset: 80% 4% 5% 60% ;
         background: rgb(253, 255, 195);
         border-radius: 10px;
-        padding: 1.5rem 0;
+        padding: 1.5rem 1rem;
         border: 3px solid white;
         transform: translateX(1000%);
         transition: transform 350ms ease-in-out;
-        text-align: center;
+        /* text-align: center; */
     }
     
     .primary-navbar[data-visible='true']{
