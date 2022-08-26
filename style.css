@@ -86,7 +86,7 @@ nav{
 
     nav{
         width: 100%;
-        padding: 1.5rem;
+        padding: 2.5rem 1.8rem;
         position: fixed;
         background-color: rgb(255, 255, 255, 0.7);
         backdrop-filter: blur(0.3rem); 
@@ -95,10 +95,10 @@ nav{
 
     .primary-navbar{
         flex-direction: column;
-        width: 43%;
+        width: 50%;
         height: min-content;
         position: fixed;
-        inset: 80% 4% 5% 58% ;
+        inset: 80% 4% 5% 45% ;
         background: rgb(253, 255, 195);
         border-radius: 10px;
         padding: 1.5rem 1rem;
@@ -137,8 +137,8 @@ nav{
         width: 2.2rem;
         aspect-ratio: 1;
         background: url('SVGs/hamburger.svg');
-        top: 1.2rem ;
-        right: 1rem;
+        top: 1.6rem ;
+        right: 1.8rem;
         z-index: 9999;
         border: none;
     }
@@ -146,7 +146,7 @@ nav{
     .nav-toggle[aria-expanded='true']{
         background: url('SVGs/cross.svg');
         width: 2rem;
-        top: 1.4rem ;
+        top: 1.7rem ;
     }
 
     
