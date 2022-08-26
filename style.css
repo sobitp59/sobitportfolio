@@ -34,6 +34,7 @@ nav{
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: bold;
+    color: rgb(0, 10, 70);
 }
 
 .primary-navbar .navlists{
@@ -143,8 +144,7 @@ nav{
         z-index: 9999;
         border: none;
     }
-
-
+    
     .nav-toggle[aria-expanded='true']{
         background: url('SVGs/cross.svg');
         width: 1.9rem;
