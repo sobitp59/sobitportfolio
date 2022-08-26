@@ -93,20 +93,17 @@ nav{
         align-items: center;       
     }
 
-    /* .nav__logo{
-
-    } */
     .primary-navbar{
         flex-direction: column;
-        width: 50%;
+        width: 65%;
         height: min-content;
         position: fixed;
-        inset: 8% 4% 5% 30% ;
+        inset: 80% 4% 5% 30% ;
         background: rgb(253, 255, 195);
         border-radius: 10px;
         padding: 1.5rem 0;
         border: 3px solid white;
-        transform: translateX(120%);
+        transform: translateX(1000%);
         transition: transform 350ms ease-in-out;
     }
     
@@ -139,7 +136,7 @@ nav{
         width: 2.2rem;
         aspect-ratio: 1;
         background: url('SVGs/hamburger.svg');
-        top: 1rem ;
+        top: 1.2rem ;
         right: 1rem;
         z-index: 9999;
         border: none;
@@ -148,7 +145,7 @@ nav{
     .nav-toggle[aria-expanded='true']{
         background: url('SVGs/cross.svg');
         width: 2rem;
-        top: 1.2rem ;
+        top: 1.4rem ;
     }
 
     
