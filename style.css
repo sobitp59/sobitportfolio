@@ -144,6 +144,7 @@ nav{
         border: none;
     }
 
+
     .nav-toggle[aria-expanded='true']{
         background: url('SVGs/cross.svg');
         width: 1.9rem;
