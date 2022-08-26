@@ -159,12 +159,12 @@ nav{
 
     .main__position{
         box-sizing: content-box;
-        width: 340px;
+        width: 305px;
         border: 2px dashed black;
         text-align: left;
         margin: 1rem 0;
         background-color: aqua;
-        font-size: 2.2rem;
+        font-size: 2rem;
         padding: 0 10px;
     }
     
