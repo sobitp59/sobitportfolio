@@ -61,10 +61,17 @@ nav{
 
 .main__position{
     width: 500px;
-    border: 2px dashed black;
+    border: 2px solid white;
     text-align: center;
     margin: 1rem 0;
+    color: rgb(0, 0, 70);
     background-color: rgb(255, 253, 209);
+    border-radius: 5px;
+    /* padding: 30px 0; */
+
+    -webkit-box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
+    -moz-box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
+    box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
 }
 
 
@@ -104,12 +111,16 @@ nav{
         background: rgb(239, 216, 255);
         border-radius: 10px;
         padding: 1.5rem 0.5rem;
-        border: 3px solid white;
+        border: 2px solid white;
         transform: translateX(1000%);
         transition: transform 350ms ease-in-out;
         font-size: 1.2rem;
-        /* font-weight: 600; */
-        /* text-align: center; */
+        color: rgb(0, 0, 70);
+    
+        
+        -webkit-box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
+        -moz-box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
+        box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
     }
     
     .primary-navbar[data-visible='true']{
@@ -164,11 +175,10 @@ nav{
     .main__position{
         box-sizing: content-box;
         width: 305px;
-        border: 2px dashed black;
         text-align: left;
         margin: 1rem 0;
         font-size: 2rem;
-        padding: 0 10px;
+        padding: 10px 10px;
     }
     
 
