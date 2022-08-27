@@ -59,6 +59,10 @@ nav{
     font-size: 1.5rem;
 }
 
+
+.active{
+    font-weight: 600;
+}
 .main__position{
     width: 500px;
     border: 2px solid white;
@@ -141,9 +145,6 @@ nav{
         font-size: 2rem;
     }
 
-    /* .navlist{
-        font-size: 1.3rem;
-    } */
 
     /* Navbar Toggle */
     .nav-toggle{
@@ -179,6 +180,48 @@ nav{
         margin: 1rem 0;
         font-size: 2rem;
         padding: 10px 10px;
+    }
+
+
+
+
+    .technologies{
+        margin: 0 1.5rem;
+        padding: 1.5rem;
+        font-size: 0.9rem;
+        background:rgb(207, 255, 240);
+        border-radius: 5px;
+        border: 2px solid white;
+
+        -webkit-box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
+        -moz-box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
+        box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
+    }
+
+    .technology__title{
+        text-align: center;
+        margin: 0.5rem 0 1rem 0;
+    }
+
+    .technologies p{
+        font-size: 1rem;
+    }
+
+    .skilss__lists{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .skills__title{
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .skilss__lists li{
+        list-style: none;
+        font-size: 0.8rem;
+        margin-top: 5px;
     }
     
 
