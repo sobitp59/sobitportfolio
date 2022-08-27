@@ -186,7 +186,7 @@ nav{
 
 
     .technologies{
-        margin: 0 1.5rem;
+        margin: 0 0.8rem;
         padding: 1.5rem;
         font-size: 0.9rem;
         background:rgb(207, 255, 240);
@@ -214,14 +214,13 @@ nav{
 
     .skills__title{
         margin-top: 1rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.1rem;
         font-size: 1.1rem;
     }
 
     .skilss__lists li{
         list-style: none;
         font-size: 0.8rem;
-        margin-top: 5px;
     }
     
 
