@@ -34,7 +34,7 @@ nav{
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: bold;
-    color: rgb(0, 10, 70);
+    color: rgb(0, 0, 70);
 }
 
 .primary-navbar .navlists{
@@ -78,12 +78,17 @@ nav{
     box-shadow: 5px 4px 11px -6px rgba(145,145,145,1);
 }
 
+.scroll-down{
+    text-decoration: none;
+}
 
-.scroll-down img{
+.scroll-down .fa-solid{
     width: 1.3rem;
     display: block;
     margin: auto;
     margin-top: 10rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 70);
 }
 
 .sr-only{
@@ -100,7 +105,7 @@ nav{
         width: 100%;
         padding: 3rem 1.2rem;
         position: fixed;
-        background-color: rgb(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(0.3rem); 
         align-items: center;       
     }
@@ -223,5 +228,34 @@ nav{
         font-size: 0.8rem;
     }
     
+
+
+    /* Projects */
+    .tech-projects{
+        background:rgb(255, 226, 237) ;
+    }
+
+    .skilss__lists li a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: rgb(0, 0, 70);
+    }
+    .skilss__lists li a:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+    .projects-more{
+        margin-top: 1.5rem;
+        display: inline-block;
+        border: 1.5px solid rgb(0, 0, 70);
+        background: rgb(0, 0, 70);
+        padding: 0.8rem 2rem;
+        border-radius: 10px;
+    }
+    .projects-more #more-projects{
+        text-decoration: none;
+        color: white;
+        font-weight: lighter;
+    }
 
 }
