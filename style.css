@@ -176,9 +176,9 @@ nav{
     .main__position{
         box-sizing: content-box;
         width: 305px;
-        text-align: left;
+        text-align: center;
         margin: 1rem 0;
-        font-size: 2rem;
+        font-size: 1.7rem;
         padding: 10px 10px;
     }
 
@@ -186,8 +186,8 @@ nav{
 
 
     .technologies{
-        margin: 1rem 0.8rem;
-        padding: 1.5rem;
+        margin: 2rem 0.8rem;
+        padding: 4rem 1.5rem;
         font-size: 0.9rem;
         background:rgb(207, 255, 240);
         border-radius: 10px;
@@ -200,7 +200,7 @@ nav{
 
     .technology__title{
         text-align: center;
-        margin: 0.5rem 0 1rem 0;
+        margin-bottom: 1.5rem;
     }
 
     .technologies p{
