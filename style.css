@@ -39,14 +39,8 @@ nav{
     font-size: 1rem;
 }
 
-.main__hello .fa-hands-praying{
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 .main__web{
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-image: linear-gradient(125deg, #8a00ff, #ffffffe0);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -61,7 +55,14 @@ nav{
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 900;
-    color: white
+    /* background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(125deg, #8a00ff, #ffffffe0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .primary-navbar .navlists{
@@ -89,7 +90,11 @@ nav{
 
 .active{
     font-weight: 700;
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    /* background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(125deg, #8a00ff, #ffffffe0);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -103,7 +108,7 @@ nav{
     border-radius: 10px;
     font-weight: 900;
 
-    background-image: linear-gradient(117deg, #8a00ff, #ffffffe0);
+    background-image: linear-gradient(359deg, #8a00ff, #ffffffe0);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -222,7 +227,7 @@ nav{
 
 
 
-    .technologies{
+    .section{
         margin: 2rem 0.8rem;
         padding: 4rem 1.5rem;
         font-size: 0.9rem;
@@ -231,41 +236,49 @@ nav{
         border: 1px solid rgba(90, 90, 90, 0.491);
     }
 
-    .technology__title{
+    .section__title{
         text-align: center;
         margin-bottom: 1.5rem;
-        background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+        /* background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+        background-image: linear-gradient(125deg, #8a00ff, #ffffffe0);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 900;
     }
 
-    .technologies p{
+    .section p{
         font-size: 0.9rem;
         color: white;
     }
 
-    .skilss__lists{
+    .section__lists{
         display: flex;
         justify-content: space-between;
     }
 
-    .skills__title{
+    .section__header{
         margin-top: 1rem;
         margin-bottom: 0.2rem;
         font-size: 0.9rem;
         color: white;
     }
 
-    .skilss__lists li{
+    .section__lists li{
         list-style: none;
         font-size: 0.8rem;
         color: rgb(158, 158, 158);
     }
 
-    .skilss__lists li:hover{
-        background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    .section__lists li:hover{
+        /* background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+        background-image: linear-gradient(125deg, #8a00ff, #ffffffe0);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -276,31 +289,28 @@ nav{
 
 
     /* Projects */
-    .tech-projects{
-        background: inherit;
-    }
-
-    .skilss__lists li a{
+  
+    .section__lists li a{
         text-decoration: none;
-        font-size: 1rem;
-        color: rgb(0, 0, 70);
+        font-size: 0.8rem;
+        color: rgb(158, 158, 158);
     }
-    .skilss__lists li a:hover{
-        text-decoration: underline;
-        color: blue;
-    }
-    .projects-more{
-        margin-top: 1.5rem;
+    
+    .more-projects-btn{
         display: inline-block;
-        border: 1.5px solid rgb(0, 0, 70);
-        background: rgb(0, 0, 70);
-        padding: 0.8rem 2rem;
-        border-radius: 10px;
-    }
-    .projects-more #more-projects{
+        color: #121212;
+        margin-top: 20px;
+        background: white;
+        padding: 8px 14px;
+        border-radius: 4.6px;
         text-decoration: none;
-        color: white;
-        font-weight: lighter;
+        font-weight: 600;
     }
+    
+    .more-projects-btn:hover, .more-projects-btn:active{
+        /* background: linear-gradient(125deg, #f5ff35, #ffb800e0); */
+        background: linear-gradient(125deg, #8a00ff, #ffffffe0);
 
+    }
+    
 }
