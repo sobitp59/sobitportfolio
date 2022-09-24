@@ -121,15 +121,15 @@ nav{
     margin: 1rem 0;
     /* border-radius: 10px; */
 
-    background-image: linear-gradient(125deg, #f5ff35, #ffffffe0);
+    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-/* 
-    background-image: linear-gradient(359deg, #8a00ff, #ffffffe0);
+
+    /* background-image: linear-gradient(359deg, #8a00ff, #ffffffe0);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;  */
 }
 
 .scroll-down{
@@ -278,7 +278,7 @@ nav{
 
 
     .main__header{
-        padding-top: 12rem ;
+        padding-top: 55% ;
         padding-left: 2rem;
         padding-right: 2rem;
         font-size: 1.2rem;
