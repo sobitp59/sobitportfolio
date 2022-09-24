@@ -32,7 +32,7 @@
 }
 
 body{
-    background: #121212;
+    background: rgb(0, 0, 0);
 }
 
 .main{
@@ -101,8 +101,7 @@ nav{
 
 .main__header{
     text-align: left;
-    padding-top: 8rem ;
-    padding-left: 5rem;
+    margin: auto 0;
     font-size: 1.5rem;
 }
 
@@ -116,13 +115,13 @@ nav{
 }
 
 .main__position{
-    width: 500px;
-    border: 1px solid rgba(90, 90, 90, 0.491);
-    text-align: center;
-    margin: 1rem 0;
-    border-radius: 10px;
 
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    font-size: 5rem;
+    text-align: left;
+    margin: 1rem 0;
+    /* border-radius: 10px; */
+
+    background-image: linear-gradient(125deg, #eaff35, #ffffffe0);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -287,11 +286,12 @@ nav{
 
     .main__position{
         box-sizing: content-box;
-        width: 305px;
-        text-align: center;
-        margin: 1rem 0;
-        font-size: 1.7rem;
-        padding: 10px 10px;
+        /* width: 305px; */
+        text-align: left;
+        /* margin: 1rem 0; */
+        font-size: 4rem;
+        line-height: 3.5rem;
+        /* padding: 10px 10px; */
     }
 
 
