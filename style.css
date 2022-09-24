@@ -155,6 +155,51 @@ nav{
     font-family: SF-MEDIUM;
 }
 
+
+.footer__title{
+    text-align: center;
+    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 3rem;
+}
+
+.footer__social-links{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.footer-social-link{
+    list-style: none;
+    text-decoration: none;
+}
+
+.social_logo{
+    width: 25px;
+    height: 25px;
+}
+
+.social_logo:hover{
+    fill: #f5ff35;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS */
 @media (max-width:480px){
     .main{
         width: 100vw;
