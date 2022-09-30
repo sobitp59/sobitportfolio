@@ -417,7 +417,7 @@ background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);        background
     .blog__div--one p{
         font-size: 10px;
         color: rgb(158, 158, 158);
-        margin-left: 3px;
+        margin-right: 3px;
     }
 
     .blog__div--two{
