@@ -434,4 +434,69 @@ nav{
     .blog__img{
         width: 100%;
     }
+
+
+    /* Projects */
+    
+    .project__container{
+        width: 90%;
+        margin: auto;
+    }
+
+    .project{
+        border: 1px solid rgba(90, 90, 90, 0.491);
+        border-radius: 0.5rem;
+        padding: 1.3rem 0.7rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project__description h2{
+        background-image: linear-gradient(125deg, #00FFB7, #00ff40);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem;
+    }
+    
+    .project__description p{
+        color: rgb(158, 158, 158);
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 0.8rem;
+    }
+
+    .project__links a{
+        text-decoration: none;
+        border: 1px solid rgba(90, 90, 90, 0.491);
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.7rem;
+        margin: 0.2rem;
+    }
+
+    .project__links{
+        display: flex;
+    }
+
+    .project__live{
+        background-image: linear-gradient(125deg, #00FFB7, #00ff40);
+        color: #121212;
+        font-weight: 500;
+        border: none;
+    }
+
+    .project__case{
+        color: white;
+        font-weight: 500;
+    }
+
+    #project__logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #project__source{
+        width: 20px;
+        height: 20px;
+    }
 }
