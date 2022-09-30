@@ -58,7 +58,7 @@ nav{
 }
 
 .main__web{
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -76,7 +76,7 @@ nav{
     font-size: 1.3rem;
     font-weight: 700;
     /* font-family: SF-BLACK; */
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -108,7 +108,7 @@ nav{
 
 .active{
     font-weight: 700;
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -121,7 +121,7 @@ nav{
     margin: 1rem 0;
     /* border-radius: 10px; */
 
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -160,7 +160,7 @@ nav{
 
 .footer__title{
     text-align: center;
-    background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
+    background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -193,8 +193,9 @@ nav{
 }
 
 
+/* background-image: linear-gradient(125deg, #9035ffdb, #e71b1b); */
 
-
+/* background-image: linear-gradient(125deg, #9035ffdb, #e71b1b); */
 
 
 
@@ -309,8 +310,7 @@ nav{
     .section__title{
         text-align: center;
         margin-bottom: 1.5rem;
-        background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
-        background-clip: text;
+background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 900;
@@ -340,8 +340,7 @@ nav{
     }
 
     .section__lists li:hover{
-        background-image: linear-gradient(125deg, #f5ff35, #ffb800e0);
-        background-clip: text;
+background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 700;
@@ -360,17 +359,19 @@ nav{
     
     .more-projects-btn{
         display: inline-block;
-        color: #121212;
+        color: white;
         margin-top: 20px;
-        background: white;
+        /* background: white; */
         padding: 8px 14px;
         border-radius: 4.6px;
+        border: 1px solid rgb(158, 158, 158);
         text-decoration: none;
         font-weight: 600;
     }
     
     .more-projects-btn:hover, .more-projects-btn:active{
-        background: linear-gradient(125deg, #f5ff35, #ffb800e0);
+        background-image: linear-gradient(125deg, #9035ffdb, #e71b1b);
+        color: white;
         /* background: linear-gradient(125deg, #8a00ff, #ffffffe0); */
 
     }
