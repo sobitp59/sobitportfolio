@@ -37,4 +37,6 @@ function eraseText(){
     }
 }
 
-writeText(phrases[phraseIndex])
+window.onload = function(){
+    writeText(phrases[phraseIndex])
+}
