@@ -35,7 +35,7 @@
         <header id="header">
             <!-- Navbar -->   
             <nav>
-                <a href="../index.html" class="nav__logo">sobitp.</a>
+                <a href="../index.html" class="nav__logo">sp.</a>
                 <button class="nav-toggle" aria-controls="primary-navbar" aria-expanded="false">
                     <span class="sr-only">Menu</span>
                 </button>
@@ -58,10 +58,34 @@
                 <p class="about__para">I am a <span class="about__persona"></span> </p>
             </div>
 
-            <div class="about__middle">
+            <!-- <div class="about__middle">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci consectetur iusto temporibus dolorem ipsum nisi.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem doloremque voluptas distinctio consectetur a numquam autem perferendis sint commodi!</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, perferendis. Dolorum nisi recusandae facilis incidunt at expedita beatae harum quisquam.</p>
+            </div> -->
+
+            <div class="contact">
+
+                <div class="contact__title">
+                    <h1>Message Me</h1>
+                    <p>Wants to work with me or if you have any query</p>
+                </div>
+
+                <form class="contact-form" method="post">
+                    <label for="name">
+                        <input type="text" id="name" placeholder="your name" required>
+                    </label>
+
+                    <label for="emal">
+                        <input type="email" id="email" placeholder="your email" required>
+                    </label>
+
+                    <label for="message">
+                        <textarea name="message" id="message" placeholder="your message" required></textarea>
+                    </label>
+
+                    <button type="submit">Message</button>
+                </form>
             </div>
 
         </main>
